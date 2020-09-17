@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite]">
+  <listeners>
+    <listener class-name="com.dasb.Listeners"/>
+  </listeners>
+  <test name="validate title in page(failed)">
+    <classes>
+      <class name="com.dasb.ValidateTitle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateTitle"/>
+          <include name="driverSetUp"/>
+        </methods>
+      </class> <!-- com.dasb.ValidateTitle -->
+      <class name="com.dasb.HomePageTest">
+        <methods>
+          <include name="driverSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dasb.HomePageTest -->
+      <class name="com.dasb.ValidateMainNavigationBar">
+        <methods>
+          <include name="driverSetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dasb.ValidateMainNavigationBar -->
+    </classes>
+  </test> <!-- validate title in page(failed) -->
+</suite> <!-- Failed suite [suite] -->

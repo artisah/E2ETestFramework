@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite" duration-ms="18526" started-at="2020-09-16T19:28:37Z" finished-at="2020-09-16T19:28:55Z">
+    <groups>
+    </groups>
+    <test name="validate user login" duration-ms="9581" started-at="2020-09-16T19:28:37Z" finished-at="2020-09-16T19:28:46Z">
+      <class name="com.dasb.HomePageTest">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.HomePageTest@77fbd92c]" name="driverSetUp" is-config="true" duration-ms="1637" started-at="2020-09-16T15:28:37Z" finished-at="2020-09-16T15:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method status="PASS" signature="goToHomepage(java.lang.String, java.lang.String)[pri:0, instance:com.dasb.HomePageTest@77fbd92c]" name="goToHomepage" duration-ms="5201" started-at="2020-09-16T15:28:38Z" data-provider="getData" finished-at="2020-09-16T15:28:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomepage -->
+        <test-method status="PASS" signature="goToHomepage(java.lang.String, java.lang.String)[pri:0, instance:com.dasb.HomePageTest@77fbd92c]" name="goToHomepage" duration-ms="2649" started-at="2020-09-16T15:28:44Z" data-provider="getData" finished-at="2020-09-16T15:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomepage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.HomePageTest@77fbd92c]" name="tearDown" is-config="true" duration-ms="86" started-at="2020-09-16T15:28:46Z" finished-at="2020-09-16T15:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dasb.HomePageTest -->
+    </test> <!-- validate user login -->
+    <test name="validate title in page" duration-ms="4780" started-at="2020-09-16T19:28:46Z" finished-at="2020-09-16T19:28:51Z">
+      <class name="com.dasb.ValidateTitle">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.ValidateTitle@34a3d150]" name="driverSetUp" is-config="true" duration-ms="3981" started-at="2020-09-16T15:28:46Z" finished-at="2020-09-16T15:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:com.dasb.ValidateTitle@34a3d150]" name="validateTitle" duration-ms="41" started-at="2020-09-16T15:28:50Z" finished-at="2020-09-16T15:28:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.dasb.ValidateTitle.validateTitle(ValidateTitle.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.ValidateTitle@34a3d150]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-09-16T15:28:51Z" finished-at="2020-09-16T15:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dasb.ValidateTitle -->
+    </test> <!-- validate title in page -->
+    <test name="validate Navigation bar" duration-ms="4144" started-at="2020-09-16T19:28:51Z" finished-at="2020-09-16T19:28:55Z">
+      <class name="com.dasb.ValidateMainNavigationBar">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.ValidateMainNavigationBar@7c7b252e]" name="driverSetUp" is-config="true" duration-ms="3783" started-at="2020-09-16T15:28:51Z" finished-at="2020-09-16T15:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method status="PASS" signature="validateMainNavBar()[pri:0, instance:com.dasb.ValidateMainNavigationBar@7c7b252e]" name="validateMainNavBar" duration-ms="180" started-at="2020-09-16T15:28:55Z" finished-at="2020-09-16T15:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMainNavBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.ValidateMainNavigationBar@7c7b252e]" name="tearDown" is-config="true" duration-ms="181" started-at="2020-09-16T15:28:55Z" finished-at="2020-09-16T15:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dasb.ValidateMainNavigationBar -->
+    </test> <!-- validate Navigation bar -->
+  </suite> <!-- suite -->
+</testng-results>
