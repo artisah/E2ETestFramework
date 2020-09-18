@@ -1,3 +1,4 @@
 com/dasb/base/Base.class
+com/dasb/base/ExtentReporterNG.class
 pages/LandingPage.class
 pages/LoginPage.class

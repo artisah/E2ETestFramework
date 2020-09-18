@@ -1,7 +1,0 @@
-14:35:27.779 [main] INFO  com.dasb.HomePageTest - Driver is initilized
-14:35:34.021 [main] INFO  com.dasb.HomePageTest - Login is successfull
-14:35:36.207 [main] INFO  com.dasb.HomePageTest - Login is successfull
-14:35:40.201 [main] INFO  com.dasb.ValidateTitle - Validation of text in home page successful
-14:35:44.463 [main] INFO  com.dasb.ValidateMainNavigationBar - validation of main navigation bar on right is successfull
-14:36:47.096 [main] INFO  com.dasb.HomePageTest - Driver is initilized
-14:36:52.344 [main] INFO  com.dasb.HomePageTest - Login is successfull

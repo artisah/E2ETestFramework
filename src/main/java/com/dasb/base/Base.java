@@ -51,6 +51,7 @@ public class Base {
         File source = screenshot.getScreenshotAs(OutputType.FILE);
         String  pathForScreenshotFolder = System.getProperty("user.dir")+"/reports/"+testCaseName+".png";
         FileUtils.copyFile(source, new File(pathForScreenshotFolder));
+        System.out.println("captureScreenshot" + pathForScreenshotFolder);
         return pathForScreenshotFolder;
 
     }

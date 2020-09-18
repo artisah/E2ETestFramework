@@ -1,8 +1,68 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.207 s <<< FAILURE! - in TestSuite
-validateTitle(com.dasb.ValidateTitle)  Time elapsed: 0.046 s  <<< FAILURE!
-java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
-	at com.dasb.ValidateTitle.validateTitle(ValidateTitle.java:30)
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 11.068 s <<< FAILURE! - in TestSuite
+com.dasb.ValidateTitle.validateTitle  Time elapsed: 0.044 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Artis-MBP.fios-router.home', ip: 'fe80:0:0:0:33:d592:5d7a:d9e0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/pd/mg87523j0sb...}, goog:chromeOptions: {debuggerAddress: localhost:63005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 692542cfbc45406346f38083a3b24d9c
+	at com.dasb.ValidateTitle.validateTitle(ValidateTitle.java:29)
+
+com.dasb.ValidateMainNavigationBar.validateMainNavBar  Time elapsed: 2.184 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Artis-MBP.fios-router.home', ip: 'fe80:0:0:0:33:d592:5d7a:d9e0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/pd/mg87523j0sb...}, goog:chromeOptions: {debuggerAddress: localhost:63005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 692542cfbc45406346f38083a3b24d9c
+	at com.dasb.ValidateMainNavigationBar.validateMainNavBar(ValidateMainNavigationBar.java:29)
+
+com.dasb.HomePageTest.goToHomepage[email1@gmail.com, password123](1)  Time elapsed: 3.354 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Artis-MBP.fios-router.home', ip: 'fe80:0:0:0:33:d592:5d7a:d9e0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/pd/mg87523j0sb...}, goog:chromeOptions: {debuggerAddress: localhost:63005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 692542cfbc45406346f38083a3b24d9c
+*** Element info: {Using=css selector, value=#user_password}
+	at com.dasb.HomePageTest.goToHomepage(HomePageTest.java:39)
+
+com.dasb.ValidateMainNavigationBar.tearDown  Time elapsed: 3.354 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Artis-MBP.fios-router.home', ip: 'fe80:0:0:0:33:d592:5d7a:d9e0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/pd/mg87523j0sb...}, goog:chromeOptions: {debuggerAddress: localhost:63005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 692542cfbc45406346f38083a3b24d9c
+	at com.dasb.ValidateMainNavigationBar.tearDown(ValidateMainNavigationBar.java:35)
+
+com.dasb.HomePageTest.goToHomepage  Time elapsed: 3.359 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Artis-MBP.fios-router.home', ip: 'fe80:0:0:0:33:d592:5d7a:d9e0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/pd/mg87523j0sb...}, goog:chromeOptions: {debuggerAddress: localhost:63005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 692542cfbc45406346f38083a3b24d9c
+
+com.dasb.HomePageTest.tearDown  Time elapsed: 3.37 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Artis-MBP.fios-router.home', ip: 'fe80:0:0:0:33:d592:5d7a:d9e0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/pd/mg87523j0sb...}, goog:chromeOptions: {debuggerAddress: localhost:63005}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 692542cfbc45406346f38083a3b24d9c
+	at com.dasb.HomePageTest.tearDown(HomePageTest.java:47)
 
