@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="30.828" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="21.554" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/Users/development/QA-Automation/Udmey/E2EProject/resources/chromedriver"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/Users/development/QA-Automation/Udmey/E2EProject/target/test-classes:/Users/development/QA-Automation/Udmey/E2EProject/target/classes:/Users/development/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/development/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/development/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/development/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/development/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/development/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/development/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/development/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/development/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/development/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/development/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/development/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/development/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/development/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/development/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/development/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/development/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/development/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/development/.m2/repository/com/aventstack/extentreports/5.0.4/extentreports-5.0.4.jar:/Users/development/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/development/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/development/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/development/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/development/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
@@ -17,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/development/QA-Automation/Udmey/E2EProject/target/surefire/surefirebooter6089939707548569559.jar /Users/development/QA-Automation/Udmey/E2EProject/target/surefire 2020-09-19T07-47-28_284-jvmRun1 surefire8519396781456955822tmp surefire_03935857608052162051tmp"/>
+    <property name="sun.java.command" value="/Users/development/QA-Automation/Udmey/E2EProject/target/surefire/surefirebooter5212870097946109594.jar /Users/development/QA-Automation/Udmey/E2EProject/target/surefire 2020-09-19T12-43-12_575-jvmRun1 surefire5750080448263396595tmp surefire_01930835081827391438tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/development/QA-Automation/Udmey/E2EProject/target/test-classes:/Users/development/QA-Automation/Udmey/E2EProject/target/classes:/Users/development/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/development/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/development/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/development/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/development/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/development/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/development/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/development/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/development/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/development/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/development/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/development/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/development/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/development/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/development/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/development/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/development/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/development/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/development/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/development/.m2/repository/com/aventstack/extentreports/5.0.4/extentreports-5.0.4.jar:/Users/development/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/development/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/development/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/development/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/development/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/development/QA-Automation/Udmey/E2EProject/target/surefire/surefirebooter6089939707548569559.jar"/>
+    <property name="surefire.real.class.path" value="/Users/development/QA-Automation/Udmey/E2EProject/target/surefire/surefirebooter5212870097946109594.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -42,16 +43,14 @@
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="firefox"/>
+    <property name="browser" value="chromeheadless"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="/Users/development/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/pd/mg87523j0sbdkwk16_wyx52h0000gp/T/"/>
-    <property name="idea.version" value="2020.2.1"/>
     <property name="java.version" value="1.8.0_131"/>
     <property name="user.dir" value="/Users/development/QA-Automation/Udmey/E2EProject"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="webdriver.gecko.driver" value="/Users/development/QA-Automation/Udmey/E2EProject/resources/geckodriver"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -64,46 +63,37 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="goToHomepage[email1@gmail.com, password123](1)" classname="com.dasb.HomePageTest" time="7.825">
-    <system-err><![CDATA[1600516050064	geckodriver	INFO	Listening on 127.0.0.1:43822
-1600516050245	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/pd/mg87523j0sbdkwk16_wyx52h0000gp/T/rust_mozprofilehWNwcd"
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1600516052229	Marionette	INFO	Listening on port 57160
-1600516052299	Marionette	WARN	TLS certificate errors will be ignored for this session
-Sep 19, 2020 7:47:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <testcase name="goToHomepage[email1@gmail.com, password123](1)" classname="com.dasb.HomePageTest" time="6.689">
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 27136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 19, 2020 12:43:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
 ]]></system-err>
   </testcase>
-  <testcase name="goToHomepage[email2@gmail.com, password345](2)" classname="com.dasb.HomePageTest" time="2.094"/>
-  <testcase name="validateTitle" classname="com.dasb.ValidateTitle" time="0.056">
+  <testcase name="goToHomepage[email2@gmail.com, password345](2)" classname="com.dasb.HomePageTest" time="1.874"/>
+  <testcase name="validateTitle" classname="com.dasb.ValidateTitle" time="0.055">
     <failure message="expected [FEATURED COURSES123] but found [FEATURED COURSES]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
 	at com.dasb.ValidateTitle.validateTitle(ValidateTitle.java:30)
 ]]></failure>
-    <system-err><![CDATA[1600516062819	Marionette	INFO	Stopped listening on port 57160
-1600516063706	geckodriver	INFO	Listening on 127.0.0.1:3630
-1600516063720	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/pd/mg87523j0sbdkwk16_wyx52h0000gp/T/rust_mozprofileaq1XPT"
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1600516065770	Marionette	INFO	Listening on port 57386
-1600516065780	Marionette	WARN	TLS certificate errors will be ignored for this session
-Sep 19, 2020 7:47:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 24542
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 19, 2020 12:43:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
 ]]></system-err>
   </testcase>
-  <testcase name="validateMainNavBar" classname="com.dasb.ValidateMainNavigationBar" time="0.109">
+  <testcase name="validateMainNavBar" classname="com.dasb.ValidateMainNavigationBar" time="0.05">
     <system-out><![CDATA[captureScreenshot/Users/development/QA-Automation/Udmey/E2EProject/reports/validateTitle.png
 ]]></system-out>
-    <system-err><![CDATA[1600516071851	Marionette	INFO	Stopped listening on port 57386
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
-1600516072467	geckodriver	INFO	Listening on 127.0.0.1:8205
-1600516072477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/pd/mg87523j0sbdkwk16_wyx52h0000gp/T/rust_mozprofileoA7v81"
-console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
-1600516074498	Marionette	INFO	Listening on port 57577
-1600516074534	Marionette	WARN	TLS certificate errors will be ignored for this session
-Sep 19, 2020 7:47:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 29711
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 19, 2020 12:43:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
 ]]></system-err>
   </testcase>
 </testsuite>

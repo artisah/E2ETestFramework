@@ -11,9 +11,9 @@ public class LoginPage {
 
     public WebDriver driver;
 
-    By loginEmail = By.cssSelector("#user_email");
-    By loginPassword = By.cssSelector("#user_password");
-    By submitButton = By.cssSelector("input[name='commit']");
+    private By loginEmail = By.cssSelector("#user_email");
+    private By loginPassword = By.cssSelector("#user_password");
+    private By submitButton = By.cssSelector("input[name='commit']");
 
     public WebElement getEmail() {
         return driver.findElement(loginEmail);

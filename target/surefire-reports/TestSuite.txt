@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.828 s <<< FAILURE! - in TestSuite
-com.dasb.ValidateTitle.validateTitle  Time elapsed: 0.056 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.554 s <<< FAILURE! - in TestSuite
+com.dasb.ValidateTitle.validateTitle  Time elapsed: 0.055 s  <<< FAILURE!
 java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
 	at com.dasb.ValidateTitle.validateTitle(ValidateTitle.java:30)
 

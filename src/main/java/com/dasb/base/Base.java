@@ -5,6 +5,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
@@ -19,7 +20,7 @@ public class Base {
     public static WebDriver driver;
     public Properties properties;
 
-    public WebDriver initilaizeDriver()  {
+    public WebDriver initilaizeDriver() {
 
         properties = new Properties();
         FileInputStream inputStream = null;
@@ -43,10 +44,16 @@ public class Base {
 
         String browserName = System.getProperty("browser");  // when passing browser as maven command in cmd mvn test -Dbrowser=chrome
 
-        if (browserName.equals("chrome")) {
+        if (browserName.contains("chrome")) {
 
             System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/resources/chromedriver");
-            driver = new ChromeDriver();
+            ChromeOptions chromeOptions = new ChromeOptions();
+
+                if (browserName.contains("headless")) {
+                    chromeOptions.addArguments("--headless");
+                }
+
+            driver = new ChromeDriver(chromeOptions);
 
         } else if (browserName.equals("firefox")) {
 
@@ -63,10 +70,10 @@ public class Base {
 
     }
 
-    public String captureScreenshot(String testCaseName, WebDriver driver ) throws IOException {
+    public String captureScreenshot(String testCaseName, WebDriver driver) throws IOException {
         TakesScreenshot screenshot = (TakesScreenshot) driver;
         File source = screenshot.getScreenshotAs(OutputType.FILE);
-        String  pathForScreenshotFolder = System.getProperty("user.dir")+"/reports/"+testCaseName+".png";
+        String pathForScreenshotFolder = System.getProperty("user.dir") + "/reports/" + testCaseName + ".png";
         FileUtils.copyFile(source, new File(pathForScreenshotFolder));
         System.out.println("captureScreenshot" + pathForScreenshotFolder);
         return pathForScreenshotFolder;

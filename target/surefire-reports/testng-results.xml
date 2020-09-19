@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="suite" duration-ms="29948" started-at="2020-09-19T11:47:29Z" finished-at="2020-09-19T11:47:59Z">
+  <suite name="suite" duration-ms="20677" started-at="2020-09-19T16:43:13Z" finished-at="2020-09-19T16:43:34Z">
     <groups>
     </groups>
-    <test name="validate user login" duration-ms="13638" started-at="2020-09-19T11:47:29Z" finished-at="2020-09-19T11:47:43Z">
+    <test name="validate user login" duration-ms="9795" started-at="2020-09-19T16:43:13Z" finished-at="2020-09-19T16:43:23Z">
       <class name="com.dasb.HomePageTest">
-        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="driverSetUp" is-config="true" duration-ms="3095" started-at="2020-09-19T07:47:29Z" finished-at="2020-09-19T07:47:32Z">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="driverSetUp" is-config="true" duration-ms="1116" started-at="2020-09-19T12:43:13Z" finished-at="2020-09-19T12:43:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="goToHomepage(java.lang.String, java.lang.String)[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="goToHomepage" duration-ms="7847" started-at="2020-09-19T07:47:32Z" data-provider="getData" finished-at="2020-09-19T07:47:40Z">
+        <test-method status="PASS" signature="goToHomepage(java.lang.String, java.lang.String)[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="goToHomepage" duration-ms="6721" started-at="2020-09-19T12:43:14Z" data-provider="getData" finished-at="2020-09-19T12:43:21Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToHomepage -->
-        <test-method status="PASS" signature="goToHomepage(java.lang.String, java.lang.String)[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="goToHomepage" duration-ms="2093" started-at="2020-09-19T07:47:40Z" data-provider="getData" finished-at="2020-09-19T07:47:42Z">
+        <test-method status="PASS" signature="goToHomepage(java.lang.String, java.lang.String)[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="goToHomepage" duration-ms="1873" started-at="2020-09-19T12:43:21Z" data-provider="getData" finished-at="2020-09-19T12:43:23Z">
           <params>
             <param index="0">
               <value>
@@ -43,19 +43,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToHomepage -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="tearDown" is-config="true" duration-ms="588" started-at="2020-09-19T07:47:42Z" finished-at="2020-09-19T07:47:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.HomePageTest@543295b0]" name="tearDown" is-config="true" duration-ms="73" started-at="2020-09-19T12:43:23Z" finished-at="2020-09-19T12:43:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dasb.HomePageTest -->
     </test> <!-- validate user login -->
-    <test name="validate title in page" duration-ms="8737" started-at="2020-09-19T11:47:43Z" finished-at="2020-09-19T11:47:52Z">
+    <test name="validate title in page" duration-ms="5462" started-at="2020-09-19T16:43:23Z" finished-at="2020-09-19T16:43:29Z">
       <class name="com.dasb.ValidateTitle">
-        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.ValidateTitle@1349883]" name="driverSetUp" is-config="true" duration-ms="6842" started-at="2020-09-19T07:47:43Z" finished-at="2020-09-19T07:47:50Z">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.ValidateTitle@1349883]" name="driverSetUp" is-config="true" duration-ms="4645" started-at="2020-09-19T12:43:23Z" finished-at="2020-09-19T12:43:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:com.dasb.ValidateTitle@1349883]" name="validateTitle" duration-ms="70" started-at="2020-09-19T07:47:50Z" finished-at="2020-09-19T07:47:50Z">
+        <test-method status="FAIL" signature="validateTitle()[pri:0, instance:com.dasb.ValidateTitle@1349883]" name="validateTitle" duration-ms="60" started-at="2020-09-19T12:43:28Z" finished-at="2020-09-19T12:43:28Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
@@ -102,23 +102,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.ValidateTitle@1349883]" name="tearDown" is-config="true" duration-ms="583" started-at="2020-09-19T07:47:51Z" finished-at="2020-09-19T07:47:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.ValidateTitle@1349883]" name="tearDown" is-config="true" duration-ms="72" started-at="2020-09-19T12:43:29Z" finished-at="2020-09-19T12:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dasb.ValidateTitle -->
     </test> <!-- validate title in page -->
-    <test name="validate Navigation bar" duration-ms="7255" started-at="2020-09-19T11:47:52Z" finished-at="2020-09-19T11:47:59Z">
+    <test name="validate Navigation bar" duration-ms="5138" started-at="2020-09-19T16:43:29Z" finished-at="2020-09-19T16:43:34Z">
       <class name="com.dasb.ValidateMainNavigationBar">
-        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.ValidateMainNavigationBar@2d901eb0]" name="driverSetUp" is-config="true" duration-ms="6506" started-at="2020-09-19T07:47:52Z" finished-at="2020-09-19T07:47:58Z">
+        <test-method status="PASS" signature="driverSetUp()[pri:0, instance:com.dasb.ValidateMainNavigationBar@2d901eb0]" name="driverSetUp" is-config="true" duration-ms="5010" started-at="2020-09-19T12:43:29Z" finished-at="2020-09-19T12:43:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetUp -->
-        <test-method status="PASS" signature="validateMainNavBar()[pri:0, instance:com.dasb.ValidateMainNavigationBar@2d901eb0]" name="validateMainNavBar" duration-ms="121" started-at="2020-09-19T07:47:58Z" finished-at="2020-09-19T07:47:59Z">
+        <test-method status="PASS" signature="validateMainNavBar()[pri:0, instance:com.dasb.ValidateMainNavigationBar@2d901eb0]" name="validateMainNavBar" duration-ms="57" started-at="2020-09-19T12:43:34Z" finished-at="2020-09-19T12:43:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMainNavBar -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.ValidateMainNavigationBar@2d901eb0]" name="tearDown" is-config="true" duration-ms="627" started-at="2020-09-19T07:47:59Z" finished-at="2020-09-19T07:47:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dasb.ValidateMainNavigationBar@2d901eb0]" name="tearDown" is-config="true" duration-ms="71" started-at="2020-09-19T12:43:34Z" finished-at="2020-09-19T12:43:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
