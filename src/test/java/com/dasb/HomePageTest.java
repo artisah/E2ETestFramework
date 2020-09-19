@@ -22,7 +22,7 @@ public class HomePageTest extends Base {
     @BeforeTest
     public void driverSetUp() throws IOException {
         driver = initilaizeDriver();
-        log.info("Driver is initilized");
+        log.info("Driver is initilized in Homepage");
     }
 
 
@@ -31,10 +31,8 @@ public class HomePageTest extends Base {
 
         driver.get(properties.getProperty("siteurl"));
         LandingPage landingPage = new LandingPage(driver);
-        LoginPage loginPage = new LoginPage(driver);
-        //Landing Page
-        landingPage.getLogIn().click();
-        //LoginPage Methods
+
+        LoginPage loginPage = landingPage.clickLogIn();
         loginPage.getEmail().sendKeys(userName);
         loginPage.getPassword().sendKeys(password);
 
@@ -44,7 +42,8 @@ public class HomePageTest extends Base {
 
     @AfterTest
     public void tearDown() {
-        driver.close();
+
+        driver.quit();
     }
 
     @DataProvider

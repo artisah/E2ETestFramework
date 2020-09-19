@@ -32,6 +32,6 @@ public class ValidateMainNavigationBar extends Base {
 
     @AfterTest
     public void tearDown() {
-        driver.close();
+        driver.quit();
     }
 }

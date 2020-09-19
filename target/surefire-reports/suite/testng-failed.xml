@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [suite]" parallel="tests">
+<suite verbose="0" name="Failed suite [suite]">
   <listeners>
     <listener class-name="com.dasb.Listeners"/>
   </listeners>
-  <test name="validate title in page(failed)" parallel="tests">
+  <test name="validate title in page(failed)">
     <classes>
       <class name="com.dasb.ValidateMainNavigationBar">
         <methods>
@@ -27,27 +27,4 @@
       </class> <!-- com.dasb.ValidateTitle -->
     </classes>
   </test> <!-- validate title in page(failed) -->
-  <test name="validate Navigation bar(failed)" parallel="tests">
-    <classes>
-      <class name="com.dasb.ValidateMainNavigationBar">
-        <methods>
-          <include name="driverSetUp"/>
-          <include name="tearDown"/>
-          <include name="validateMainNavBar"/>
-        </methods>
-      </class> <!-- com.dasb.ValidateMainNavigationBar -->
-      <class name="com.dasb.HomePageTest">
-        <methods>
-          <include name="driverSetUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.dasb.HomePageTest -->
-      <class name="com.dasb.ValidateTitle">
-        <methods>
-          <include name="tearDown"/>
-          <include name="driverSetUp"/>
-        </methods>
-      </class> <!-- com.dasb.ValidateTitle -->
-    </classes>
-  </test> <!-- validate Navigation bar(failed) -->
 </suite> <!-- Failed suite [suite] -->

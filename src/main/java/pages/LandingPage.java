@@ -16,8 +16,9 @@ public class LandingPage {
         this.driver = driver;
     }
 
-    public WebElement getLogIn() {
-       return  driver.findElement(signInLink);
+    public LoginPage clickLogIn() {
+         driver.findElement(signInLink).click();
+          return  new LoginPage(driver);
 
     }
 

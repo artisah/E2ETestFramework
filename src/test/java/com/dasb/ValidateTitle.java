@@ -34,7 +34,7 @@ public class ValidateTitle extends Base {
 
     @AfterTest
     public void tearDown() {
-        driver.close();
+        driver.quit();
     }
 }
 
